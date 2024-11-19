@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E9F3487C-995D-4D63-82C5-555102E5192C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Wellmedow.My.MyApplication</StartupObject>
+    <RootNamespace>Wellmedow</RootNamespace>
+    <AssemblyName>Wellmedow</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Grxn\Desktop\APP\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Wellmedow.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Wellmedow.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>FFEC4898691A987C25CE29FA98503177B5AF7D90</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Wellmedow_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addAllocate.Designer.vb">
+      <DependentUpon>addAllocate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addAllocate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addDrug.Designer.vb">
+      <DependentUpon>addDrug.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addDrug.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addExperiences.Designer.vb">
+      <DependentUpon>addExperiences.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addExperiences.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addMedicine.Designer.vb">
+      <DependentUpon>addMedicine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addMedicine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addNewRequest.Designer.vb">
+      <DependentUpon>addNewRequest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addNewRequest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewStaff.Designer.vb">
+      <DependentUpon>AddNewStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addPatient.Designer.vb">
+      <DependentUpon>addPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addQualification.Designer.vb">
+      <DependentUpon>addQualification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addQualification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addShift.Designer.vb">
+      <DependentUpon>addShift.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addShift.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addStaff.Designer.vb">
+      <DependentUpon>addStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteMedicine.Designer.vb">
+      <DependentUpon>deleteMedicine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="deleteMedicine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deletePatient.Designer.vb">
+      <DependentUpon>deletePatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="deletePatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteStaff.Designer.vb">
+      <DependentUpon>deleteStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="deleteStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditReq.Designer.vb">
+      <DependentUpon>EditReq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditReq.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Experiences.Designer.vb">
+      <DependentUpon>Experiences.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Experiences.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hospital.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Hospital.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Hospital.vb">
+      <DependentUpon>Hospital.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LocalDoctor.Designer.vb">
+      <DependentUpon>LocalDoctor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LocalDoctor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Medicine.Designer.vb">
+      <DependentUpon>Medicine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Medicine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Patient.Designer.vb">
+      <DependentUpon>Patient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientAllocate.Designer.vb">
+      <DependentUpon>PatientAllocate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PatientAllocate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientRelatives.Designer.vb">
+      <DependentUpon>PatientRelatives.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PatientRelatives.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RefOrAlo.Designer.vb">
+      <DependentUpon>RefOrAlo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RefOrAlo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff.Designer.vb">
+      <DependentUpon>Staff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staffQualification.Designer.vb">
+      <DependentUpon>staffQualification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="staffQualification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staffReport.Designer.vb">
+      <DependentUpon>staffReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="staffReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supply.Designer.vb">
+      <DependentUpon>Supply.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Supply.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wardReport.Designer.vb">
+      <DependentUpon>wardReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="wardReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WardRequest.Designer.vb">
+      <DependentUpon>WardRequest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WardRequest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="addAllocate.resx">
+      <DependentUpon>addAllocate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addDrug.resx">
+      <DependentUpon>addDrug.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addExperiences.resx">
+      <DependentUpon>addExperiences.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addMedicine.resx">
+      <DependentUpon>addMedicine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addNewRequest.resx">
+      <DependentUpon>addNewRequest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewStaff.resx">
+      <DependentUpon>AddNewStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addPatient.resx">
+      <DependentUpon>addPatient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addQualification.resx">
+      <DependentUpon>addQualification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addShift.resx">
+      <DependentUpon>addShift.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addStaff.resx">
+      <DependentUpon>addStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteMedicine.resx">
+      <DependentUpon>deleteMedicine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deletePatient.resx">
+      <DependentUpon>deletePatient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteStaff.resx">
+      <DependentUpon>deleteStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditReq.resx">
+      <DependentUpon>EditReq.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Experiences.resx">
+      <DependentUpon>Experiences.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocalDoctor.resx">
+      <DependentUpon>LocalDoctor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medicine.resx">
+      <DependentUpon>Medicine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient.resx">
+      <DependentUpon>Patient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientAllocate.resx">
+      <DependentUpon>PatientAllocate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientRelatives.resx">
+      <DependentUpon>PatientRelatives.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RefOrAlo.resx">
+      <DependentUpon>RefOrAlo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff.resx">
+      <DependentUpon>Staff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staffQualification.resx">
+      <DependentUpon>staffQualification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staffReport.resx">
+      <DependentUpon>staffReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supply.resx">
+      <DependentUpon>Supply.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wardReport.resx">
+      <DependentUpon>wardReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WardRequest.resx">
+      <DependentUpon>WardRequest.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hospital.xsc">
+      <DependentUpon>Hospital.xsd</DependentUpon>
+    </None>
+    <None Include="Hospital.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Hospital.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Hospital.xss">
+      <DependentUpon>Hospital.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Wellmedow_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wellmedow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient-icon-simple-element-from-medical-services-vector-36147880.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient-icon-simple-element-from-medical-services-vector-361478801.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\181336138-male-patient-in-a-blood-transfusion-process-isolated-on-a-white-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1223737192-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\128974945-hospital-logo-and-symbols-template-icons-app.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

@@ -1,0 +1,381 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Wellmedow
+</name>
+</assembly>
+<members>
+<member name="T:Wellmedow.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Wellmedow.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Wellmedow.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Wellmedow.My.Resources.Resources._128974945_hospital_logo_and_symbols_template_icons_app">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wellmedow.My.Resources.Resources._181336138_male_patient_in_a_blood_transfusion_process_isolated_on_a_white_background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wellmedow.My.Resources.Resources.istockphoto_1223737192_612x612">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wellmedow.My.Resources.Resources.patient_icon_simple_element_from_medical_services_vector_36147880">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wellmedow.My.Resources.Resources.patient_icon_simple_element_from_medical_services_vector_361478801">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Wellmedow.My.Resources.Resources.Wellmedow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.PatientDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.DrugDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.StaffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.LocalDoctorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.PatientRelativesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.PatientReferralDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.MedicationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.WardsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.WardReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.StaffShiftDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.QualificationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.WorkExpDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.PatientAllocateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.WardRequestDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.PatientRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.DrugRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.StaffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.LocalDoctorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.PatientRelativesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.PatientReferralRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.MedicationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.WardsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.WardReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.StaffShiftRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.QualificationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.WorkExpRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.PatientAllocateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.WardRequestRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.PatientRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.DrugRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.StaffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.LocalDoctorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.PatientRelativesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.PatientReferralRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.MedicationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.WardsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.WardReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.StaffShiftRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.QualificationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.WorkExpRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.PatientAllocateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wellmedow.Hospital.WardRequestRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.PatientTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.DrugTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.StaffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.LocalDoctorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.PatientRelativesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.PatientReferralTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.MedicationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.WardsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.WardReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.StaffShiftTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.QualificationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.WorkExpTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.PatientAllocateTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.WardRequestTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Wellmedow.HospitalTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wellmedow.Hospital,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Wellmedow.HospitalTableAdapters.TableAdapterManager.UpdateInsertedRows(Wellmedow.Hospital,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Wellmedow.HospitalTableAdapters.TableAdapterManager.UpdateDeletedRows(Wellmedow.Hospital,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Wellmedow.HospitalTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Wellmedow.HospitalTableAdapters.TableAdapterManager.UpdateAll(Wellmedow.Hospital)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Wellmedow.HospitalTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
